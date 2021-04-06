@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    background-color: #212121;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 100;
+    margin: 2rem 0 1rem;
+    color: #afeabe;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #bbb;
+}
+
+#links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.club-link {
+    border: 0.25rem solid white;
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
