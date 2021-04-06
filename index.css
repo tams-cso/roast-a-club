@@ -16,13 +16,14 @@ h1 {
 
 p {
     font-size: 1.5rem;
+    margin-bottom: 1rem;
     color: #bbb;
 }
 
 #links {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 90vw;
     align-items: center;
     margin: 1rem 0;
 }
@@ -33,6 +34,12 @@ p {
     background-color: transparent;
     color: white;
     font-size: 2rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.club-link:hover {
+    background-color: #444;
 }
 
 @media only screen and (max-width: 992px) {
@@ -42,5 +49,8 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
-    
+    p, #links {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 }
